@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+option go_package = "whatsmyip/spec";
+
+package spec;
+
+message IPRequest {}
+message IPReply { string ip = 1; }
