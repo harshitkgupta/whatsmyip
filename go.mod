@@ -3,6 +3,7 @@ module github.com/harshitkgupta/whatsmyip
 go 1.15
 
 require (
+	github.com/golang/protobuf v1.4.3 // indirect
 	github.com/gorilla/mux v1.8.0
 	github.com/phayes/freeport v0.0.0-20180830031419-95f893ade6f2
 	github.com/stretchr/testify v1.7.0
